@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/bartek-garbowicz-xJeCLqsBUqc-unsplash.jpg);
+    background-size: cover;
+}
+
+
+
+.grade-checker {
+    width: 30%;
+    padding: 50px;
+    border-radius: 20px;
+    background: rgba(161, 160, 160, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(179, 162, 162, 0.3);
+    color: #fff
+}
+
+.grade-checker>h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.grade-checker>form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>label {
+    margin-bottom: 4px;
+}
+
+.grade-checker>form>input {
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 4px 22px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #A0F3F1;
+    border: 1px solid black;
+}

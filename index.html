@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Grade-Checking-App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grade-checker">
+            <h1>Grade Checking App</h1>
+            <form action="">
+                <label for="input">Enter your %age</label>
+                <input type="number" id="input" required onkeydown="if(event.key==='Enter'){GradeChecking();}" >
+
+                <input type="text" readonly id="output" >
+
+            </form>
+            <button onclick="GradeChecking()">Check</button>
+        </div>
+    </div>
+    <script src="./scrip.mjs"></script>
+</body>
+</html>
